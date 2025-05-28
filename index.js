@@ -13,6 +13,10 @@ app.get('/login', (req, res) => {
   res.send("<h1>Welcome to Login</h1>");
 });
 
+app.get('/signup', (req, res) => {
+  res.send("<h2>Welcome to Signup</h2>")
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
